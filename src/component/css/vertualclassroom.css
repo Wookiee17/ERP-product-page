@@ -1,0 +1,352 @@
+section.vc-masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(18rem - 4.5rem);
+    background-image: url(../images/vertual-classroom/hm-new-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+section.vc-masthead {
+	height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+}
+.vc-overl {
+    position: relative;
+}
+.vc-d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+        height: 100%;
+}
+.vc-overl:before {
+    position: absolute;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000823;
+    background: -moz-linear-gradient(45deg, #383838 0%,#445edc78 42%,#4f61b9 100%);
+    background: -webkit-linear-gradient(45deg, #383838 0%,#445edc78 42%,#4f61b9 100%);
+    background: linear-gradient(45deg, #383838 0%,#445edc78 42%,#4f61b9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000823', endColorstr='#91298b',GradientType=1 );
+}
+section.vc-masthead:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+.vc-landing-header {
+
+}
+.vc-align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.h-100{
+	height: 100%;
+}
+.align-center{
+	text-align: center;
+}
+.vc-hero-txt{
+	width: 75%;
+    margin: 0 auto;
+}
+.vc-hero-txt .vc-banner-head{
+	font-weight: 800;
+	font-size: 50px;
+	color: #fff;
+	line-height: 60px;
+	margin-bottom: 15px;
+}
+.vc-hero-txt .vc-banner-subhead{
+	font-weight: 400;
+	font-size: 20px;
+	color: #fff;
+	line-height: 30px;
+}
+.vc-landingbtn .btn {
+	font-family: Poppins, sans-serif;
+	border-radius: 0px;
+	font-size: 22px;
+	font-weight: 500;
+	padding: 12px 40px;
+	border-radius: 94px;
+	transform: translateY(0rem);
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	color: #ffffff;
+	background: #FFD733;
+	display: inline-block;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.vc-rightarrow .btn{
+	position: relative;
+	padding-right: 52px;
+}
+.vc-rightarrow .btn:before{
+	position: absolute;
+    right: 13px;
+    top: 13px;
+	content: '\f178';
+	font-family:'FontAwesome';
+
+}
+.vc-aboutflex{
+    display: -webkit-box!;
+    display: -ms-flexbox!;
+    display: flex;
+    align-items: center;
+}
+.vc-about{
+	    width: 85%;
+    margin: 0 auto;
+}
+.vc-about h2{
+   font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.bold{
+    font-weight: 800;
+}
+.vc-m-bt{
+	margin-bottom: 50px;
+}
+
+
+.vc-grid{
+	padding:20px;
+	color: #415055;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+.vc-grid-shadow{
+box-shadow: 0px 0px 19px #e8e8e8;
+}
+.vc-center{
+	text-align: center;
+}
+.wight-grid{
+	background-color: #fff;
+}
+.gray-grid{
+	background-color: #FBFBFB;
+	min-height: 310px;
+	display: flex;
+	/*align-items: center;*/
+}
+.yellow-grid{
+	background-color: #FFD733;
+	color: #fff;
+}
+
+
+.vc-grid .grid-cnt h3{
+ font-size: 18px;
+ line-height: 28px;
+ font-weight: 600;
+}
+.vc-grid .grid-cnt p{
+ font-size: 15px;
+ line-height: 26px;
+ font-weight: 400;
+}
+.vc-icon{
+	position: relative;
+	padding-top: 50px;
+}
+.vc-icon:before{
+	position: absolute;
+	top:0px;
+}
+.vc-icon-1:before{
+	content: url(../images/vertual-classroom/vc-1.png);
+}
+.vc-icon-2:before{
+	content: url(../images/vertual-classroom/vc-2.png);
+}
+.vc-icon-3:before{
+	content: url(../images/vertual-classroom/vc-3.png);
+}
+h2.big-text{
+	font-size: 50px;
+	font-weight: 800;
+	margin: 0px;
+}
+.vc-mrg{
+	margin: 85px 0px;
+    display: inline-block;
+}
+.vc-featureicon:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.vc-featureicon{
+	position: relative;
+	padding-top: 97px;
+}
+/*.vc-f-icon-1:before{
+	content: url(../images/vertual-classroom/vc-f-1.png);
+}*/
+.vc-f-icon-1:before{
+	content: url(../images/vertual-classroom/vc-f-1-1.png);
+}
+.vc-f-icon-2:before{
+	content: url(../images/vertual-classroom/vc-f-2.png);
+}
+.vc-f-icon-3:before{
+	content: url(../images/vertual-classroom/vc-f-3.png);
+}
+.vc-f-icon-4:before{
+	content: url(../images/vertual-classroom/vc-f-4.png);
+}
+.vc-f-icon-5:before{
+	content: url(../images/vertual-classroom/vc-f-5.png);
+}
+.vc-f-icon-6:before{
+	content: url(../images/vertual-classroom/vc-f-6.png);
+}
+.vc-f-icon-7:before{
+	content: url(../images/vertual-classroom/vc-f-7.png);
+}
+.vc-f-icon-8:before{
+	content: url(../images/vertual-classroom/vc-f-8.png);
+}
+.vc-f-icon-9:before{
+	content: url(../images/vertual-classroom/vc-f-9.png);
+}
+.vc-f-icon-10:before{
+	content: url(../images/vertual-classroom/vc-f-10.png);
+}
+.vc-f-icon-11:before{
+	content: url(../images/vertual-classroom/vc-f-11.png);
+}
+.vc-f-icon-12:before{
+	content: url(../images/vertual-classroom/vc-f-12.png);
+}
+.vc-f-icon-13:before{
+	content: url(../images/vertual-classroom/vc-f-13.png);
+}
+.vc-f-icon-14:before{
+	content: url(../images/vertual-classroom/vc-f-14.png);
+}
+.vc-f-icon-15:before{
+	content: url(../images/vertual-classroom/vc-f-15.png);
+}
+.vc-feature .grid-cnt h3{
+	margin-bottom: 3px;
+}
+.vc-feature{
+	margin-bottom: 30px;
+}
+#vc-navbarMain.theme_navbar {
+    background-color: #2b2d3c;
+    color: #ffffff!important;
+    /* padding: 6px 0; */
+    /*box-shadow: 0px 0px 8px 3px rgb(239, 239, 239);
+    -moz-box-shadow: 0px 0px 8px 3px rgb(239, 239, 239);
+    -webkit-box-shadow: 0px 0px 8px 3px rgb(239, 239, 239);*/
+}
+#vc-navbarMain {
+    transition: .2s all ease;
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #2b2d3c !important;
+    transition: background-color 0.2s ease;
+}
+#vc-navbarMain .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#navbarMain.theme_navbar {
+    background-color: #f7f7f7;
+    color: #364F7E!important;
+    /* padding: 6px 0; */
+    box-shadow: 0px 0px 8px 3px rgb(239, 239, 239);
+    -moz-box-shadow: 0px 0px 8px 3px rgb(239, 239, 239);
+    -webkit-box-shadow: 0px 0px 8px 3px rgb(239, 239, 239);
+}
+.vc-navbar .nav li a{
+	color: #fff;
+	font-weight: 600;
+}
+.vc-navbar .nav li a.vc-signup{
+	color: #fff;
+	font-weight: 600;
+	padding: 10px 10px;
+	border-radius: 50px;
+	border:2px solid #fff;
+}
+.cd-top, .cd-top.cd-fade-out{
+	opacity: 0;
+}
+.vc-logowrap{
+	/*z-index: 11111;*/
+	position: absolute;
+	top:23px;
+}
+#vc-navbarMain .menu_topper{
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+}
+.model_holder .modal-body {
+    padding: 0px;
+}
+.info_error{
+	color: #fb1616;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 230px){
+.vc-hero-txt{
+	width: 100%;
+}
+.gray-grid{
+	justify-content: center;
+}
+.vc-aboutflex{
+	display: block;
+}
+.vc-mrg {
+    margin: 21px 0px;
+    display: inline-block;
+}
+.vc-about{
+	width: 100%;
+}
+.vc-hero-txt .vc-banner-head{
+	font-size: 30px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.vc-logowrap {
+display: flex;
+align-items: center;
+justify-content: center;
+left: 0px;
+right: 0px;
+}
+
+}
+@media (min-width: 992px){
+#vc-navbarMain {
+    box-shadow: none;
+    background-color: transparent !important;
+}
+}
